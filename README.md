@@ -41,7 +41,7 @@ Capturas de la configuración y activación/desactivación de reglas (Magic Numb
 
 Antes de refactorizar el código, se creó una red de seguridad mediante pruebas unitarias, garantizando que el comportamiento funcional del sistema se mantiene intacto durante los cambios.
 
-4.1 Creación del test unitario
+4.1 CREACIÓN DEL TEST UNITARIO.
 
 Se implementó la clase ProcesadorPedidosTest.java utilizando JUnit 4, validando:
 
@@ -55,7 +55,7 @@ Gastos de envío
 
 El proyecto fue configurado correctamente como proyecto Maven, incluyendo la dependencia de JUnit en el archivo pom.xml.
 
-4.2 Ejecución de pruebas
+4.2 EJECUCIÓN DE PRUEBAS.
 
 Los tests fueron ejecutados con resultado VERDE, confirmando el correcto funcionamiento del sistema y permitiendo avanzar con seguridad a la fase de refactorización.
 
