@@ -21,20 +21,36 @@ package factorizacion;
 	        }
 	        
 	        // Lógica de descuento (Magic Number 100 y 0.10)
-	        if (t > 100) {
+	        final int IMPORTE_MINIMO_DESCUENTO = 100;
+			if (t > IMPORTE_MINIMO_DESCUENTO) {
 	            System.out.println("Descuento aplicado.");
-	            t = t - (t * 0.10); 
+	            final double DESCUENTO = 0.10;
+				
+				t = t - (t * DESCUENTO); 
 	        }
 	        
 	        // Cálculo de impuestos (Magic Number 0.21)
-	        double res = t + (t * 0.21);
+	        double res = calcularIva(t);
 	        
 	        // Gastos de envío (Magic Number 500 y 15.95)
-	        if (res < 500) {
-	            res = res + 15.95;
-	        }
+	        res = aplicarGastosEnvio(res);
 	        
 	        return res;
 	    }
+
+		private double aplicarGastosEnvio(double res) {
+			final int IMPORTE_ENVIO_GRATIS = 500;
+			if (res < IMPORTE_ENVIO_GRATIS) {
+	            final double GASTOS_ENVIO = 15.95;
+				res = res + GASTOS_ENVIO;
+	        }
+			return res;
+		}
+
+		private double calcularIva(double t) {
+			final double IVA = 0.21;
+			double res = t + (t * IVA);
+			return res;
+		}
 	}
 
