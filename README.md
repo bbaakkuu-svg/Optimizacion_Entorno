@@ -1,59 +1,55 @@
-# Optimizacion_Entorno
+1. INGTRODUCCIÓN
 
-Práctica: Optimización, Análisis y Automatización de Código Java
-1. Introducción
+En esta práctica se trabaja sobre un módulo Java de gestión de pedidos que presenta una elevada deuda técnica. El objetivo no es únicamente que el código funcione, sino que sea mantenible, legible y escalable, aplicando buenas prácticas profesionales de desarrollo de software.
 
-En esta práctica trabajamos sobre un módulo Java de gestión de pedidos que presenta una elevada deuda técnica. El objetivo no es únicamente que el código funcione, sino que sea mantenible, legible y escalable, aplicando buenas prácticas profesionales de desarrollo de software.
+A lo largo de la actividad se realizan tareas de análisis estático, creación de pruebas unitarias, refactorización segura mediante herramientas del IDE y automatización mediante Integración Continua, utilizando tecnologías estándar del ecosistema Java.
 
-A lo largo de la actividad se realizan tareas de análisis estático, creación de pruebas unitarias, refactorización segura con herramientas del IDE y preparación para integración continua, utilizando tecnologías estándar del ecosistema Java.
+2. TECNOLOGÍAS Y HERRAMIENTAS UTILIZADAS:
 
-2. Tecnologías y Herramientas Utilizadas
+-Java 17
 
-Java 17
+-Eclipse IDE
 
-Eclipse IDE
+-Maven
 
-Maven
+-JUnit 5
 
-JUnit 4
+-Git y GitHub
 
-Git y GitHub
+-GitHub Actions (Integración Continua)
 
-GitHub Actions (pendiente de configurar)
+-SonarLint / SonarQube (análisis estático)
 
-SonarLint / SonarQube (análisis estático)
+3. FASE 1-ANÁLISIS ESTÁTICO Y CONFIGURACIÓN (CE c, CE d)
 
-3. Fase 1 – Análisis Estático y Configuración (CE c, d)
-
-Antes de realizar cualquier modificación en el código, se llevó a cabo una auditoría del mismo mediante herramientas de análisis estático.
-
-Se intentó la instalación y configuración de SonarLint/SonarQube en Eclipse con el objetivo de identificar problemas como:
+Antes de realizar cualquier modificación en el código, se llevó a cabo una auditoría inicial mediante herramientas de análisis estático con el objetivo de identificar problemas de calidad como:
 
 Uso de números mágicos
 
 Complejidad cognitiva elevada
 
-Falta de claridad en nombres de variables
+Nombres de variables poco descriptivos
 
-Debido a limitaciones técnicas en el entorno (no disponibilidad de un servidor SonarQube local), no fue posible completar la conexión con un servidor activo. No obstante, se revisaron las reglas de calidad y su finalidad, documentando el análisis previo como paso fundamental antes de la refactorización.
+Se intentó la instalación y configuración de SonarLint/SonarQube en Eclipse. Debido a limitaciones técnicas del entorno (no disponibilidad de un servidor SonarQube local activo), no fue posible establecer conexión con un servidor remoto. No obstante, se analizaron las reglas de calidad, su propósito y su impacto en el código, documentando este análisis como paso previo imprescindible antes de la refactorización.
 
-CAPTURAS DE PANTALLA:
-![alt text](Magic_umbers_and_Cognitive_Complexy_Desactivate.png) ![alt text](<Cognitive Complexy.png>) ![alt text](<Magic Numbers.jpg>) ![alt text](Magicnumber_desactivado.jpg) ![alt text](Magicnumber_activado.jpg)
+EVIDENCIAS
+![alt text](file:///c%3A/Users/LENOVO/1%C2%BA%20DAW/TRABAJO_ENTORNO/Optimizacion_Entorno/Magic_umbers_and_Cognitive_Complexy_Desactivate.png) ![alt text](file:///c%3A/Users/LENOVO/1%C2%BA%20DAW/TRABAJO_ENTORNO/Optimizacion_Entorno/Magicnumber_activado.jpg) ![alt text](file:///c%3A/Users/LENOVO/1%C2%BA%20DAW/TRABAJO_ENTORNO/Optimizacion_Entorno/Magicnumber_desactivado.jpg) [alt text](file:///c%3A/Users/LENOVO/1%C2%BA%20DAW/TRABAJO_ENTORNO/Optimizacion_Entorno/README.md) ![alt text](file:///c%3A/Users/LENOVO/1%C2%BA%20DAW/TRABAJO_ENTORNO/Optimizacion_Entorno/Cognitive%20Complexy.png) ![alt text](file:///c%3A/Users/LENOVO/1%C2%BA%20DAW/TRABAJO_ENTORNO/Optimizacion_Entorno/Magic%20Numbers.jpg)
 
+Capturas de la configuración y activación/desactivación de reglas (Magic Numbers, Cognitive Complexity).
 
-4. Fase 2 – Red de Seguridad con Pruebas Unitarias (CE b)
+4. FASE 2 - RED DE SEGURIDAD CON PRUEBAS UNITARIAS (CE b)
 
-Antes de refactorizar el código, se creó una red de seguridad mediante pruebas unitarias, garantizando que el comportamiento funcional se mantiene intacto durante los cambios.
+Antes de refactorizar el código, se creó una red de seguridad mediante pruebas unitarias, garantizando que el comportamiento funcional del sistema se mantiene intacto durante los cambios.
 
 4.1 Creación del test unitario
 
-Se implementó la clase ProcesadorPedidosTest.java utilizando JUnit 4, validando el cálculo correcto de:
+Se implementó la clase ProcesadorPedidosTest.java utilizando JUnit 4, validando:
 
 Suma de precios
 
 Aplicación de descuentos
 
-Cálculo de IVA
+Cálculo del IVA
 
 Gastos de envío
 
@@ -61,16 +57,15 @@ El proyecto fue configurado correctamente como proyecto Maven, incluyendo la dep
 
 4.2 Ejecución de pruebas
 
-El test fue ejecutado con resultado VERDE, confirmando que el comportamiento actual del sistema es correcto y permitiendo avanzar con seguridad a la fase de refactorización.
+Los tests fueron ejecutados con resultado VERDE, confirmando el correcto funcionamiento del sistema y permitiendo avanzar con seguridad a la fase de refactorización.
 
-📸 Se adjunta captura de la ejecución del test en verde.
+![Test Verde](file:///c%3A/Users/LENOVO/Pictures/Ejecucion_test_verde.png)
 
+Se adjuntan capturas de la ejecución de los tests en verde.
 
+5. CONTROL DE VERSIONES CON GIT Y GITHUB.
 
-
-5. Control de Versiones con Git y GitHub
-
-El proyecto se encuentra bajo control de versiones utilizando Git.
+El proyecto se encuentra bajo control de versiones utilizando Git y alojado en GitHub.
 
 5.1 Configuración del repositorio
 
@@ -84,7 +79,7 @@ Configuraciones locales de Eclipse
 
 Configuración local de SonarLint (.sonarlint/)
 
-5.2 Estrategia de ramas
+5.2 ESTRATEGÍA DE RAMAS.
 
 Se adoptó una estrategia básica de ramas:
 
@@ -92,15 +87,23 @@ main: rama estable
 
 develop: rama de desarrollo y refactorización
 
-La rama develop fue creada a partir de main y sincronizada correctamente con el repositorio remoto en GitHub.
+La rama develop fue creada a partir de main y sincronizada correctamente con el repositorio remoto.
 
-📸 Se incluyen capturas mostrando las ramas locales y remotas.
+![Ramas locales y remotas](file:///c%3A/Users/LENOVO/Pictures/ramas_locales_y_remotas.png)
 
-6. Fase 3 – Refactorización con Herramientas de Eclipse (CE a, e)
+Captura que muestra la existencia de las ramas main y develop tanto en local como en el repositorio remoto (origin), verificando su correcta sincronización
 
-La refactorización del código se realiza exclusivamente mediante herramientas automáticas del IDE Eclipse, sin modificar el código manualmente.
+6. FASE 3 - REFACTORIZACIÓN CON HERRAMIENTAS DE ECLIPSE (CE a, CE e)
 
-    6.1 Extract Method
+La refactorización se realizó exclusivamente mediante herramientas automáticas de Eclipse, sin modificar manualmente el código.
+
+6.1 RENAME (Renombrado de variables)
+
+Se sustituyeron nombres genéricos por nombres semánticos y representativos del dominio del problema, mejorando la legibilidad y mantenibilidad del código.
+
+![RENAME](file:///c%3A/Users/LENOVO/Pictures/Refactorizar.png)
+
+6.2 EXTRACT METHOD (Extracción de métodos)
 
 Se aplicó el patrón Extract Method para reducir la responsabilidad del método principal:
 
@@ -108,33 +111,19 @@ Extracción del cálculo del IVA a un método privado independiente.
 
 Extracción de la lógica de gastos de envío a un método privado independiente.
 
-Estas acciones se realizaron utilizando el atajo Alt + Shift + M y validando los cambios mediante la vista Refactor Preview.
+Las refactorizaciones se realizaron mediante Refactor → Extract Method (Alt + Shift + M), validando los cambios mediante la vista Refactor Preview.
 
 Tras cada refactorización:
 
 Se ejecutaron los tests unitarios.
 
-El estado se mantuvo en verde, confirmando que la refactorización no introdujo errores.
+El estado se mantuvo en VERDE, confirmando que no se introdujeron errores.
 
-CAPTURAS DE EXTRACT METHOD Y REFACTORIZACIÓN.
-![alt text](<Extract Method.png>) ![alt text](Refactorizar.png) ![alt text](<Extract MethodA.png>)
+![EXTRACT_METHOD_A](file:///c%3A/Users/LENOVO/Pictures/Extract%20Method.png) ![EXTRACT_METHOD_B](file:///c%3A/Users/LENOVO/Pictures/Extract%20MethodA.png)
 
-    6.2. Extract Method (Extracción de métodos)
+Se adjuntan capturas de la vista Refactor Preview.
 
-Se identificaron responsabilidades múltiples dentro del método principal y se extrajo la lógica a métodos privados independientes:
-
-Cálculo del IVA
-
-Cálculo de los gastos de envío
-
-Esta refactorización reduce la complejidad cognitiva del método principal y mejora la reutilización y claridad del código.
-
-Herramienta utilizada:
-Refactor → Extract Method (Alt + Shift + M)
-
-📸 Se adjuntan capturas de la vista “Refactor Preview” antes de aplicar los cambios.
-
-        6.3 Extract Constant (Eliminación de números mágicos)
+6.3 EXTRACT CONSTANT (Eliminación de números mágicos)
 
 Se eliminaron los números mágicos del código, sustituyéndolos por constantes de clase con nombres descriptivos, facilitando el mantenimiento y la comprensión de las reglas de negocio.
 
@@ -153,35 +142,41 @@ GASTOS_ENVIO
 Herramienta utilizada:
 Refactor → Extract Constant (Alt + Shift + L)
 
-📸 Se adjuntan capturas de la vista “Refactor Preview” correspondiente.
+![EXTRACT_CONSTANT_A](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantJ.png) ![EXTRACT_CONSTANT_B](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantI.png) ![EXTRACT_CONSTANT_C](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantH.png) ![EXTRACT_CONSTANT_D](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantG.png) ![EXTRACT_CONSTANT_E](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantF.png) ![EXTRACT_CONSTANT_F](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantE.png) ![EXTRACT_CONSTANT_G](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantD.png) ![EXTRACT_CONSTANT_H](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantC.png) ![EXTRACT_CONSTANT_I](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantB.png) ![EXTRACT_CONSTANT_J](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantA.png)
 
-7. Estado Actual del Proyecto
+Se adjuntan capturas de la vista Refactor Preview.
 
-Hasta este punto, el proyecto cuenta con:
+7. FASE 4 - INTEGRACIÓN CONTINUA CON GITHUB ACTIONS (CE i)
 
-Código probado y protegido por tests
+Se configuró un flujo de Integración Continua (CI) mediante GitHub Actions, encargado de:
 
-Refactorización parcial aplicada correctamente
+Compilar el proyecto Maven.
 
-Historial de commits claro y coherente
+Ejecutar automáticamente los tests unitarios en cada push.
 
-Rama develop sincronizada con GitHub
+El pipeline fue correctamente ejecutado, obteniendo un estado final SUCCESS, lo que confirma que el proyecto compila y supera todas las pruebas de forma automatizada.
 
-8. Próximos Pasos
+![WORKFLOW VERDE](file:///c%3A/Users/LENOVO/Pictures/Vista_general_Actions.png)
 
-Las tareas pendientes para completar la práctica son:
+Se adjuntan capturas del workflow ejecutado en verde.
 
-Aplicar Extract Constant para eliminar números mágicos.
+8. ESTADO FIANL DEL PROYECTO
 
-Completar la Fase 3 de refactorización.
+El proyecto cuenta actualmente con:
 
-Configurar GitHub Actions para Integración Continua (CE i).
+Código protegido por pruebas unitarias.
 
-Probar el fallo y recuperación del pipeline CI.
+Refactorización aplicada de forma segura y controlada.
 
-Finalizar la documentación y capturas para la entrega.
+Eliminación de deuda técnica (números mágicos y métodos complejos).
 
-9. Enlace al Repositorio
+Integración Continua configurada y operativa.
 
-🔗 Repositorio en GitHub:
-(añadir aquí el enlace al repositorio)
+![HISTORIAL_COMMITS1](file:///c%3A/Users/LENOVO/Pictures/Historial_Commits.png) ![HISTORIAL_COMMITS2](file:///c%3A/Users/LENOVO/Pictures/Historial_Commits2.png)
+
+Historial de commits claro y coherente.
+
+9. ENLACE AL REPOSITORIO.
+
+ Repositorio en GitHub:
+https://github.com/bbaakkuu-svg/Optimizacion_Entorno.git
