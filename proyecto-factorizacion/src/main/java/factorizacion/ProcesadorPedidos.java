@@ -21,9 +21,12 @@ package factorizacion;
 	        }
 	        
 	        // Lógica de descuento (Magic Number 100 y 0.10)
-	        if (t > 100) {
+	        final int IMPORTE_MINIMO_DESCUENTO = 100;
+			if (t > IMPORTE_MINIMO_DESCUENTO) {
 	            System.out.println("Descuento aplicado.");
-	            t = t - (t * 0.10); 
+	            final double DESCUENTO = 0.10;
+				
+				t = t - (t * DESCUENTO); 
 	        }
 	        
 	        // Cálculo de impuestos (Magic Number 0.21)
@@ -36,14 +39,17 @@ package factorizacion;
 	    }
 
 		private double aplicarGastosEnvio(double res) {
-			if (res < 500) {
-	            res = res + 15.95;
+			final int IMPORTE_ENVIO_GRATIS = 500;
+			if (res < IMPORTE_ENVIO_GRATIS) {
+	            final double GASTOS_ENVIO = 15.95;
+				res = res + GASTOS_ENVIO;
 	        }
 			return res;
 		}
 
 		private double calcularIva(double t) {
-			double res = t + (t * 0.21);
+			final double IVA = 0.21;
+			double res = t + (t * IVA);
 			return res;
 		}
 	}
