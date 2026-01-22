@@ -27,14 +27,24 @@ package factorizacion;
 	        }
 	        
 	        // Cálculo de impuestos (Magic Number 0.21)
-	        double res = t + (t * 0.21);
+	        double res = calcularIva(t);
 	        
 	        // Gastos de envío (Magic Number 500 y 15.95)
-	        if (res < 500) {
-	            res = res + 15.95;
-	        }
+	        res = aplicarGastosEnvio(res);
 	        
 	        return res;
 	    }
+
+		private double aplicarGastosEnvio(double res) {
+			if (res < 500) {
+	            res = res + 15.95;
+	        }
+			return res;
+		}
+
+		private double calcularIva(double t) {
+			double res = t + (t * 0.21);
+			return res;
+		}
 	}
 
