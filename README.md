@@ -100,7 +100,7 @@ La rama develop fue creada a partir de main y sincronizada correctamente con el 
 
 La refactorización del código se realiza exclusivamente mediante herramientas automáticas del IDE Eclipse, sin modificar el código manualmente.
 
-6.1 Extract Method
+    6.1 Extract Method
 
 Se aplicó el patrón Extract Method para reducir la responsabilidad del método principal:
 
@@ -119,7 +119,41 @@ El estado se mantuvo en verde, confirmando que la refactorización no introdujo 
 CAPTURAS DE EXTRACT METHOD Y REFACTORIZACIÓN.
 ![alt text](<Extract Method.png>) ![alt text](Refactorizar.png) ![alt text](<Extract MethodA.png>)
 
+    6.2. Extract Method (Extracción de métodos)
 
+Se identificaron responsabilidades múltiples dentro del método principal y se extrajo la lógica a métodos privados independientes:
+
+Cálculo del IVA
+
+Cálculo de los gastos de envío
+
+Esta refactorización reduce la complejidad cognitiva del método principal y mejora la reutilización y claridad del código.
+
+Herramienta utilizada:
+Refactor → Extract Method (Alt + Shift + M)
+
+📸 Se adjuntan capturas de la vista “Refactor Preview” antes de aplicar los cambios.
+
+        6.3 Extract Constant (Eliminación de números mágicos)
+
+Se eliminaron los números mágicos del código, sustituyéndolos por constantes de clase con nombres descriptivos, facilitando el mantenimiento y la comprensión de las reglas de negocio.
+
+Constantes extraídas:
+
+DESCUENTO
+
+IMPORTE_MINIMO_DESCUENTO
+
+IVA
+
+IMPORTE_ENVIO_GRATIS
+
+GASTOS_ENVIO
+
+Herramienta utilizada:
+Refactor → Extract Constant (Alt + Shift + L)
+
+📸 Se adjuntan capturas de la vista “Refactor Preview” correspondiente.
 
 7. Estado Actual del Proyecto
 
