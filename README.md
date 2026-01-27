@@ -33,7 +33,7 @@ Nombres de variables poco descriptivos
 Se intentó la instalación y configuración de SonarLint/SonarQube en Eclipse. Debido a limitaciones técnicas del entorno (no disponibilidad de un servidor SonarQube local activo), no fue posible establecer conexión con un servidor remoto. No obstante, se analizaron las reglas de calidad, su propósito y su impacto en el código, documentando este análisis como paso previo imprescindible antes de la refactorización.
 
 EVIDENCIAS
-![alt text](file:///c%3A/Users/LENOVO/1%C2%BA%20DAW/TRABAJO_ENTORNO/Optimizacion_Entorno/Magic_umbers_and_Cognitive_Complexy_Desactivate.png) ![alt text](file:///c%3A/Users/LENOVO/1%C2%BA%20DAW/TRABAJO_ENTORNO/Optimizacion_Entorno/Magicnumber_activado.jpg) ![alt text](file:///c%3A/Users/LENOVO/1%C2%BA%20DAW/TRABAJO_ENTORNO/Optimizacion_Entorno/Magicnumber_desactivado.jpg) [alt text](file:///c%3A/Users/LENOVO/1%C2%BA%20DAW/TRABAJO_ENTORNO/Optimizacion_Entorno/README.md) ![alt text](file:///c%3A/Users/LENOVO/1%C2%BA%20DAW/TRABAJO_ENTORNO/Optimizacion_Entorno/Cognitive%20Complexy.png) ![alt text](file:///c%3A/Users/LENOVO/1%C2%BA%20DAW/TRABAJO_ENTORNO/Optimizacion_Entorno/Magic%20Numbers.jpg)
+![alt text](IMAGENES\Magic_umbers_and_Cognitive_Complexy_Desactivate.png) ![alt text]IMAGENES\Magicnumber_activado.jpg ![alt text]IMAGENES\Magicnumber_desactivado.jpg [alt text](file:///c%3A/Users/LENOVO/1%C2%BA%20DAW/TRABAJO_ENTORNO/Optimizacion_Entorno/README.md) ![alt text]IMAGENES\Cognitive Complexy.png ![alt text]IMAGENES\Magic Numbers.jpg
 
 Capturas de la configuración y activación/desactivación de reglas (Magic Numbers, Cognitive Complexity).
 
@@ -59,7 +59,7 @@ El proyecto fue configurado correctamente como proyecto Maven, incluyendo la dep
 
 Los tests fueron ejecutados con resultado VERDE, confirmando el correcto funcionamiento del sistema y permitiendo avanzar con seguridad a la fase de refactorización.
 
-![Test Verde](file:///c%3A/Users/LENOVO/Pictures/Ejecucion_test_verde.png)
+![Test Verde]IMAGENES\Ejecucion_test_verde.png
 
 Se adjuntan capturas de la ejecución de los tests en verde.
 
@@ -89,7 +89,7 @@ develop: rama de desarrollo y refactorización
 
 La rama develop fue creada a partir de main y sincronizada correctamente con el repositorio remoto.
 
-![Ramas locales y remotas](file:///c%3A/Users/LENOVO/Pictures/ramas_locales_y_remotas.png)
+![Ramas locales y remotas]IMAGENES\ramas_locales_y_remotas.png
 
 Captura que muestra la existencia de las ramas main y develop tanto en local como en el repositorio remoto (origin), verificando su correcta sincronización
 
@@ -101,7 +101,7 @@ La refactorización se realizó exclusivamente mediante herramientas automática
 
 Se sustituyeron nombres genéricos por nombres semánticos y representativos del dominio del problema, mejorando la legibilidad y mantenibilidad del código.
 
-![RENAME](file:///c%3A/Users/LENOVO/Pictures/Refactorizar.png)
+![RENAME]IMAGENES\Refactorizar.png
 
 6.2 EXTRACT METHOD (Extracción de métodos)
 
@@ -119,7 +119,7 @@ Se ejecutaron los tests unitarios.
 
 El estado se mantuvo en VERDE, confirmando que no se introdujeron errores.
 
-![EXTRACT_METHOD_A](file:///c%3A/Users/LENOVO/Pictures/Extract%20Method.png) ![EXTRACT_METHOD_B](file:///c%3A/Users/LENOVO/Pictures/Extract%20MethodA.png)
+![EXTRACT_METHOD_A]IMAGENES\Extract Method.png ![EXTRACT_METHOD_B]IMAGENES\Extract MethodA.png
 
 Se adjuntan capturas de la vista Refactor Preview.
 
@@ -142,7 +142,16 @@ GASTOS_ENVIO
 Herramienta utilizada:
 Refactor → Extract Constant (Alt + Shift + L)
 
-![EXTRACT_CONSTANT_A](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantJ.png) ![EXTRACT_CONSTANT_B](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantI.png) ![EXTRACT_CONSTANT_C](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantH.png) ![EXTRACT_CONSTANT_D](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantG.png) ![EXTRACT_CONSTANT_E](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantF.png) ![EXTRACT_CONSTANT_F](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantE.png) ![EXTRACT_CONSTANT_G](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantD.png) ![EXTRACT_CONSTANT_H](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantC.png) ![EXTRACT_CONSTANT_I](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantB.png) ![EXTRACT_CONSTANT_J](file:///c%3A/Users/LENOVO/Pictures/Extract%20ConstantA.png)
+![EXTRACT_CONSTANT_A]IMAGENES\Extract MethodA.png!
+[EXTRACT_CONSTANT_B]IMAGENES\Extract ConstantB.png !
+[EXTRACT_CONSTANT_C]IMAGENES\Extract ConstantC.png !
+[EXTRACT_CONSTANT_D]IMAGENES\Extract ConstantD.png !
+[EXTRACT_CONSTANT_E]IMAGENES\Extract ConstantE.png !
+[EXTRACT_CONSTANT_F]IMAGENES\Extract ConstantF.png !
+[EXTRACT_CONSTANT_G]IMAGENES\Extract ConstantG.png !
+[EXTRACT_CONSTANT_H]IMAGENES\Extract ConstantH.png !
+[EXTRACT_CONSTANT_I]IMAGENES\Extract ConstantI.png !
+[EXTRACT_CONSTANT_J]IMAGENES\Extract ConstantJ.png
 
 Se adjuntan capturas de la vista Refactor Preview.
 
@@ -156,7 +165,7 @@ Ejecutar automáticamente los tests unitarios en cada push.
 
 El pipeline fue correctamente ejecutado, obteniendo un estado final SUCCESS, lo que confirma que el proyecto compila y supera todas las pruebas de forma automatizada.
 
-![WORKFLOW VERDE](file:///c%3A/Users/LENOVO/Pictures/Vista_general_Actions.png)
+![WORKFLOW VERDE]IMAGENES\Vista_general_Actions.png
 
 Se adjuntan capturas del workflow ejecutado en verde.
 
@@ -172,7 +181,8 @@ Eliminación de deuda técnica (números mágicos y métodos complejos).
 
 Integración Continua configurada y operativa.
 
-![HISTORIAL_COMMITS1](file:///c%3A/Users/LENOVO/Pictures/Historial_Commits.png) ![HISTORIAL_COMMITS2](file:///c%3A/Users/LENOVO/Pictures/Historial_Commits2.png)
+![HISTORIAL_COMMITS1]IMAGENES\Historial_Commits.png !
+[HISTORIAL_COMMITS2]IMAGENES\Historial_Commits2.png
 
 Historial de commits claro y coherente.
 
