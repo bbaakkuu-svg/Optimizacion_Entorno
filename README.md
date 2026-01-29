@@ -161,7 +161,6 @@ Se adjuntan capturas de la vista Refactor Preview.
 
 TABLA RESUMEN:
 
-Historial de commits claro y coherente.
 | Dato antiguo |          Dato nuevo            | Refactor utilizado |
 |--------------|--------------------------------|--------------------|
 |      a       |          listaNombres          |       Rename       |
@@ -206,6 +205,7 @@ Integración Continua configurada y operativa.
 ![HISTORIAL_COMMITS1](IMAGENES/Historial_Commits.png)
 ![HISTORIAL_COMMITS2](IMAGENES/Historial_Commits2.png)
 
+Historial de commits claro y coherente.
 
 9. ENLACE AL REPOSITORIO.
 
