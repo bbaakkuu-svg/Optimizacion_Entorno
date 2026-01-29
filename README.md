@@ -159,6 +159,23 @@ Refactor → Extract Constant (Alt + Shift + L)
 
 Se adjuntan capturas de la vista Refactor Preview.
 
+TABLA RESUMEN:
+
+Historial de commits claro y coherente.
+| Dato antiguo |          Dato nuevo            | Refactor utilizado |
+|--------------|--------------------------------|--------------------|
+|      a       |          listaNombres          |       Rename       |
+|      b       |            precios             |       Rename       |
+|      t       |       totalSimImpuestos        |       Rename       |
+|    "null"    |          calculoEnvio          |   Extract Method   |
+|    "null"    |           calculoIVA           |   Extract Method   |
+|    15.95     |           COSTE_ENVIO          |  Extract Constant  |
+|     500      |   IMPORTE_MINIMO_ENVIO_GRATIS  |  Extract Constant  |
+|     0.21     |         PORCENTAJE_IVA         |  Extract Constant  |
+|     100      |     IMPORTE_MINIMO_DESCUENTO   |  Extract Constant  |
+|     0.10     |           DESCUENTO            |  Extract Constant  |
+
+
 7. FASE 4 - INTEGRACIÓN CONTINUA CON GITHUB ACTIONS (CE i)
 
 Se configuró un flujo de Integración Continua (CI) mediante GitHub Actions, encargado de:
@@ -189,7 +206,6 @@ Integración Continua configurada y operativa.
 ![HISTORIAL_COMMITS1](IMAGENES/Historial_Commits.png)
 ![HISTORIAL_COMMITS2](IMAGENES/Historial_Commits2.png)
 
-Historial de commits claro y coherente.
 
 9. ENLACE AL REPOSITORIO.
 
