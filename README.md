@@ -33,7 +33,9 @@ Nombres de variables poco descriptivos
 Se intentó la instalación y configuración de SonarLint/SonarQube en Eclipse. Debido a limitaciones técnicas del entorno (no disponibilidad de un servidor SonarQube local activo), no fue posible establecer conexión con un servidor remoto. No obstante, se analizaron las reglas de calidad, su propósito y su impacto en el código, documentando este análisis como paso previo imprescindible antes de la refactorización.
 
 EVIDENCIAS
-![alt text](IMAGENES\Magic_umbers_and_Cognitive_Complexy_Desactivate.png) ![alt text]IMAGENES\Magicnumber_activado.jpg ![alt text]IMAGENES\Magicnumber_desactivado.jpg [alt text](file:///c%3A/Users/LENOVO/1%C2%BA%20DAW/TRABAJO_ENTORNO/Optimizacion_Entorno/README.md) ![alt text]IMAGENES\Cognitive Complexy.png ![alt text]IMAGENES\Magic Numbers.jpg
+![alt text](IMAGENES\Magic_umbers_and_Cognitive_Complexy_Desactivate.png) 
+![alt text]IMAGENES\Magicnumber_activado.jpg 
+![alt text]IMAGENES\Magicnumber_desactivado.jpg [alt text](file:///c%3A/Users/LENOVO/1%C2%BA%20DAW/TRABAJO_ENTORNO/Optimizacion_Entorno/README.md) ![alt text]IMAGENES\CognitiveComplexy.png ![alt text]IMAGENES\MagicNumbers.jpg
 
 Capturas de la configuración y activación/desactivación de reglas (Magic Numbers, Cognitive Complexity).
 
@@ -119,7 +121,8 @@ Se ejecutaron los tests unitarios.
 
 El estado se mantuvo en VERDE, confirmando que no se introdujeron errores.
 
-![EXTRACT_METHOD_A]IMAGENES\Extract Method.png ![EXTRACT_METHOD_B]IMAGENES\Extract MethodA.png
+![EXTRACT_METHOD_A]IMAGENES\ExtractMethod.png 
+![EXTRACT_METHOD_B]IMAGENES\ExtractMethodA.png
 
 Se adjuntan capturas de la vista Refactor Preview.
 
@@ -142,16 +145,16 @@ GASTOS_ENVIO
 Herramienta utilizada:
 Refactor → Extract Constant (Alt + Shift + L)
 
-![EXTRACT_CONSTANT_A]IMAGENES\Extract MethodA.png!
-[EXTRACT_CONSTANT_B]IMAGENES\Extract ConstantB.png !
-[EXTRACT_CONSTANT_C]IMAGENES\Extract ConstantC.png !
-[EXTRACT_CONSTANT_D]IMAGENES\Extract ConstantD.png !
-[EXTRACT_CONSTANT_E]IMAGENES\Extract ConstantE.png !
-[EXTRACT_CONSTANT_F]IMAGENES\Extract ConstantF.png !
-[EXTRACT_CONSTANT_G]IMAGENES\Extract ConstantG.png !
-[EXTRACT_CONSTANT_H]IMAGENES\Extract ConstantH.png !
-[EXTRACT_CONSTANT_I]IMAGENES\Extract ConstantI.png !
-[EXTRACT_CONSTANT_J]IMAGENES\Extract ConstantJ.png
+![EXTRACT_CONSTANT_A]IMAGENES\ExtractMethodA.png
+![EXTRACT_CONSTANT_B]IMAGENES\ExtractConstantB.png 
+![EXTRACT_CONSTANT_C]IMAGENES\ExtractConstantC.png 
+![EXTRACT_CONSTANT_D]IMAGENES\ExtractConstantD.png 
+![EXTRACT_CONSTANT_E]IMAGENES\ExtractConstantE.png 
+![EXTRACT_CONSTANT_F]IMAGENES\ExtractConstantF.png 
+![EXTRACT_CONSTANT_G]IMAGENES\ExtractConstantG.png 
+![EXTRACT_CONSTANT_H]IMAGENES\ExtractConstantH.png 
+![EXTRACT_CONSTANT_I]IMAGENES\ExtractConstantI.png 
+![EXTRACT_CONSTANT_J]IMAGENES\ExtractConstantJ.png
 
 Se adjuntan capturas de la vista Refactor Preview.
 
