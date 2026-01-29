@@ -34,6 +34,11 @@ Se intentó la instalación y configuración de SonarLint/SonarQube en Eclipse. 
 
 EVIDENCIAS
 ![Refactor Preview](IMAGENES/Magic_umbers_and_Cognitive_Complexy_Desactivate.png)
+![Refactor Preview](IMAGENES/CognitiveComplexy.png)
+![Refactor Preview](IMAGENES/MagicNumbers.jpg)
+![Refactor Preview](IMAGENES/Magicnumber_desactivado.jpg)
+![Refactor Preview](IMAGENES/Magicnumber_activado.jpg)
+![Refactor Preview](IMAGENES/)
 
 Capturas de la configuración y activación/desactivación de reglas (Magic Numbers, Cognitive Complexity).
 
@@ -59,7 +64,7 @@ El proyecto fue configurado correctamente como proyecto Maven, incluyendo la dep
 
 Los tests fueron ejecutados con resultado VERDE, confirmando el correcto funcionamiento del sistema y permitiendo avanzar con seguridad a la fase de refactorización.
 
-![Test Verde]IMAGENES\Ejecucion_test_verde.png
+![Refactor Preview](IMAGENES/Ejecucion_test_verde.png)
 
 Se adjuntan capturas de la ejecución de los tests en verde.
 
@@ -89,7 +94,7 @@ develop: rama de desarrollo y refactorización
 
 La rama develop fue creada a partir de main y sincronizada correctamente con el repositorio remoto.
 
-![Ramas locales y remotas]IMAGENES\ramas_locales_y_remotas.png
+![TEST VERDE](IMAGENES/ramas_locales_y_remotas.png)
 
 Captura que muestra la existencia de las ramas main y develop tanto en local como en el repositorio remoto (origin), verificando su correcta sincronización
 
@@ -101,7 +106,7 @@ La refactorización se realizó exclusivamente mediante herramientas automática
 
 Se sustituyeron nombres genéricos por nombres semánticos y representativos del dominio del problema, mejorando la legibilidad y mantenibilidad del código.
 
-![RENAME]IMAGENES\Refactorizar.png
+![RENAME](IMAGENES/Refactorizar.png)
 
 6.2 EXTRACT METHOD (Extracción de métodos)
 
@@ -119,8 +124,8 @@ Se ejecutaron los tests unitarios.
 
 El estado se mantuvo en VERDE, confirmando que no se introdujeron errores.
 
-![EXTRACT_METHOD_A]IMAGENES\ExtractMethod.png 
-![EXTRACT_METHOD_B]IMAGENES\ExtractMethodA.png
+![EXTRACT_METHOD](IMAGENES/ExtractMethod.png)
+![EXTRACT_METHOD_A](IMAGENES/ExtractConstantA.png)
 
 Se adjuntan capturas de la vista Refactor Preview.
 
@@ -143,16 +148,16 @@ GASTOS_ENVIO
 Herramienta utilizada:
 Refactor → Extract Constant (Alt + Shift + L)
 
-![EXTRACT_CONSTANT_A]IMAGENES\ExtractMethodA.png
-![EXTRACT_CONSTANT_B]IMAGENES\ExtractConstantB.png 
-![EXTRACT_CONSTANT_C]IMAGENES\ExtractConstantC.png 
-![EXTRACT_CONSTANT_D]IMAGENES\ExtractConstantD.png 
-![EXTRACT_CONSTANT_E]IMAGENES\ExtractConstantE.png 
-![EXTRACT_CONSTANT_F]IMAGENES\ExtractConstantF.png 
-![EXTRACT_CONSTANT_G]IMAGENES\ExtractConstantG.png 
-![EXTRACT_CONSTANT_H]IMAGENES\ExtractConstantH.png 
-![EXTRACT_CONSTANT_I]IMAGENES\ExtractConstantI.png 
-![EXTRACT_CONSTANT_J]IMAGENES\ExtractConstantJ.png
+![EXTRACT_CONSTANT_A]IMAGENES/ExtractMethodA.png
+![EXTRACT_CONSTANT_B]IMAGENES/ExtractConstantB.png 
+![EXTRACT_CONSTANT_C]IMAGENES/ExtractConstantC.png 
+![EXTRACT_CONSTANT_D]IMAGENES/ExtractConstantD.png 
+![EXTRACT_CONSTANT_E]IMAGENES/ExtractConstantE.png 
+![EXTRACT_CONSTANT_F]IMAGENES/ExtractConstantF.png 
+![EXTRACT_CONSTANT_G]IMAGENES/ExtractConstantG.png 
+![EXTRACT_CONSTANT_H]IMAGENES/ExtractConstantH.png 
+![EXTRACT_CONSTANT_I]IMAGENES/ExtractConstantI.png 
+![EXTRACT_CONSTANT_J]IMAGENES/ExtractConstantJ.png
 
 Se adjuntan capturas de la vista Refactor Preview.
 
@@ -166,11 +171,11 @@ Ejecutar automáticamente los tests unitarios en cada push.
 
 El pipeline fue correctamente ejecutado, obteniendo un estado final SUCCESS, lo que confirma que el proyecto compila y supera todas las pruebas de forma automatizada.
 
-![WORKFLOW VERDE]IMAGENES\Vista_general_Actions.png
+![WORKFLOW VERDE](IMAGENES/Vista_general_Actions.png)
 
 Se adjuntan capturas del workflow ejecutado en verde.
 
-8. ESTADO FIANL DEL PROYECTO
+8. ESTADO FINAL DEL PROYECTO.
 
 El proyecto cuenta actualmente con:
 
@@ -182,8 +187,9 @@ Eliminación de deuda técnica (números mágicos y métodos complejos).
 
 Integración Continua configurada y operativa.
 
-![HISTORIAL_COMMITS1]IMAGENES\Historial_Commits.png !
-[HISTORIAL_COMMITS2]IMAGENES\Historial_Commits2.png
+
+![HISTORIAL_COMMITS1](IMAGENES/Historial_Commits.png)
+![HISTORIAL_COMMITS2](IMAGENES/Historial_Commits2.png)
 
 Historial de commits claro y coherente.
 
