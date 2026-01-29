@@ -38,7 +38,6 @@ EVIDENCIAS
 ![Refactor Preview](IMAGENES/MagicNumbers.jpg)
 ![Refactor Preview](IMAGENES/Magicnumber_desactivado.jpg)
 ![Refactor Preview](IMAGENES/Magicnumber_activado.jpg)
-![Refactor Preview](IMAGENES/)
 
 Capturas de la configuración y activación/desactivación de reglas (Magic Numbers, Cognitive Complexity).
 
@@ -148,16 +147,15 @@ GASTOS_ENVIO
 Herramienta utilizada:
 Refactor → Extract Constant (Alt + Shift + L)
 
-![EXTRACT_CONSTANT_A]IMAGENES/ExtractMethodA.png
-![EXTRACT_CONSTANT_B]IMAGENES/ExtractConstantB.png 
-![EXTRACT_CONSTANT_C]IMAGENES/ExtractConstantC.png 
-![EXTRACT_CONSTANT_D]IMAGENES/ExtractConstantD.png 
-![EXTRACT_CONSTANT_E]IMAGENES/ExtractConstantE.png 
-![EXTRACT_CONSTANT_F]IMAGENES/ExtractConstantF.png 
-![EXTRACT_CONSTANT_G]IMAGENES/ExtractConstantG.png 
-![EXTRACT_CONSTANT_H]IMAGENES/ExtractConstantH.png 
-![EXTRACT_CONSTANT_I]IMAGENES/ExtractConstantI.png 
-![EXTRACT_CONSTANT_J]IMAGENES/ExtractConstantJ.png
+![EXTRACT_METHOD_B](IMAGENES/ExtractConstantB.png)
+![EXTRACT_METHOD_C](IMAGENES/ExtractConstantC.png)
+![EXTRACT_METHOD_D](IMAGENES/Extract%20ConstantD.png)
+![EXTRACT_METHOD_E](IMAGENES/ExtractConstantE.png)
+![EXTRACT_METHOD_F](IMAGENES/ExtractConstantF.png)
+![EXTRACT_METHOD_G](IMAGENES/Extract%20ConstantG.png)
+![EXTRACT_METHOD_H](IMAGENES/Extract%20ConstantH.png)
+![EXTRACT_METHOD_I](IMAGENES/ExtractConstantI.png)
+![EXTRACT_METHOD_J](IMAGENES/Extract%20ConstantJ.png)
 
 Se adjuntan capturas de la vista Refactor Preview.
 
