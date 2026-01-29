@@ -33,10 +33,7 @@ Nombres de variables poco descriptivos
 Se intentó la instalación y configuración de SonarLint/SonarQube en Eclipse. Debido a limitaciones técnicas del entorno (no disponibilidad de un servidor SonarQube local activo), no fue posible establecer conexión con un servidor remoto. No obstante, se analizaron las reglas de calidad, su propósito y su impacto en el código, documentando este análisis como paso previo imprescindible antes de la refactorización.
 
 EVIDENCIAS
-IMAGENES\Magic_umbers_and_Cognitive_Complexy_Desactivate.png
-IMAGENES\MagicNumbers.jpg
-IMAGENES\Magicnumber_activado.jpg
-IMAGENES\Magicnumber_desactivado.jpg
+![Refactor Preview](IMAGENES\Magic_umbers_and_Cognitive_Complexy_Desactivate.png)
 
 Capturas de la configuración y activación/desactivación de reglas (Magic Numbers, Cognitive Complexity).
 
